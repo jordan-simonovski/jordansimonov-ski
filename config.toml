@@ -1,6 +1,7 @@
 baseURL = "https://blog.jordansimonov.ski/"
 title = "Jordan Simonovski"
 Copyright = "Jordan Simonovski"
+googleAnalytics = "UA-134665544-1"
 
 baseurl = "/"
 languageCode = "en-us"
