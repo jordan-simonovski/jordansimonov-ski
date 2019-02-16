@@ -1,7 +1,6 @@
 ---
 title: "DevOps & Enterprise — Introducing Cultural Change to Big Organisations"
 date: 2017-03-12T11:50:20+11:00
-draft: true
 ---
 
 # DevOps & Enterprise — Introducing Cultural Change to Big Organisations

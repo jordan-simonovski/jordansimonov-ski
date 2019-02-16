@@ -1,7 +1,6 @@
 ---
 title: "DevOps & Enterprise — Reference List"
 date: 2017-03-12T13:50:20+11:00
-draft: true
 ---
 
 # DevOps & Enterprise — Reference List

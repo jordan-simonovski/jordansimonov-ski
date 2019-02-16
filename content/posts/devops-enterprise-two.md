@@ -1,7 +1,6 @@
 ---
 title: "DevOps & Enterprise — Part Deux"
 date: 2017-03-12T12:50:20+11:00
-draft: true
 ---
 
 # DevOps & Enterprise — Part Deux
