@@ -1,9 +1,12 @@
 ---
 title: "DevOps & Enterprise — Introducing Cultural Change to Big Organisations"
 date: 2017-03-12T11:50:20+11:00
+summary: "How introducing DevOps and SRE within the constraints of your organisation can help you win battles in your fight for better IT Operations."
+tags: ["devops","enterprise","culture"]
+header:
+  image: "https://cdn-images-1.medium.com/max/1600/1*XssIvsJiNPGxxeorIzpYPw.gif"
+  caption: "How introducing DevOps and SRE within the constraints of your organisation can help you win battles in your fight for better IT Operations."
 ---
-
-*How introducing DevOps and SRE within the constraints of your organisation can help you win battles in your fight for better IT Operations.*
 
 _(Apologies for my overuse of gifs. I like to break up my text with a gif every now and then)._
 

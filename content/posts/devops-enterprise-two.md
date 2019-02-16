@@ -1,9 +1,12 @@
 ---
 title: "DevOps & Enterprise — Part Deux"
 date: 2017-03-12T12:50:20+11:00
+summary: "Determining the teams you need to work with, understanding your constraints, and building something to try and solve the operational issues of an organisation."
+tags: ["devops","enterprise","culture"]
+header:
+  image: "https://cdn-images-1.medium.com/max/1600/1*XxOLwjH2eu13sATwysIqsA.gif"
+  caption: "Determining the teams you need to work with, understanding your constraints, and building something to try and solve the operational issues of an organisation."
 ---
-
-*Determining the teams you need to work with, understanding your constraints, and building something to try and solve the operational issues of an organisation.*
 
 I know, I probably offended some people by saying that I don’t particularly agree with configuration management scripts being used for infrastructure provisioning, middleware installations, and code deployment. That’s because I see certain places where this could potentially fit, but in others adds complexity.
 
