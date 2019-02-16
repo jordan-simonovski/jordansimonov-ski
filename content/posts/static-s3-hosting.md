@@ -1,7 +1,6 @@
 ---
 title: "My Sunday Project — Static S3 Hosting"
 date: 2018-06-04T12:50:20+11:00
-draft: true
 ---
 
 # My Sunday Project — Static S3 Hosting
