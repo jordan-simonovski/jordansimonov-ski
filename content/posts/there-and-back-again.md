@@ -3,15 +3,13 @@ title: "There and Back Again"
 date: 2018-04-23T12:50:20+11:00
 ---
 
-# There and Back Again
-
-## How my move out of a product team to an infrastructure team, and back again changed my view on DevOps and end-to-end ownership of products.
+*How my move out of a product team to an infrastructure team, and back again changed my view on DevOps and end-to-end ownership of products.*
 
 When I started my career in IT, I was working in an organisation where so many bits and pieces of the Software Delivery Life Cycle were out of my control. Many developers I worked with had just come to terms with the fact that every deployment of our app would take about a day of effort, as well as the involvement of three to four other teams.
 
 To me and to many other developers I worked with, deployments were painful, scary, and in most cases tedious.
 
-![](https://cdn-images-1.medium.com/max/1600/1*TMOPe9-PGh6D36cBBd0DPw.gif)Ops every time a Dev wants to touch infrastructure.
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*TMOPe9-PGh6D36cBBd0DPw.gif" alt="Bilbo" position="center" style="border-radius: 8px;" caption="Ops every time a Dev wants to touch infrastructure." >}}
 
 I decided to move into an infrastructure team and learn as much as I possibly could to see how I could help out my fellow developers. Moving into a purely infrastructure related role, I was able to learn an incredible amount about what good infrastructure looked like, and how it could be used to improve the quality of life of an everyday developer.
 
@@ -40,14 +38,14 @@ In my experience as an infrastructure guy, here’s what skills I think develope
 *   **You should know how to build and deploy a production version of your app.** If you use Docker, you should be able to build your own container.This is especially important if you’re willing to invest in developing with docker locally. If you use something else, that’s fine, as long as you know the steps to build a production version of the app, and all of the runtime deployment dependencies.
 *   **You should have some kind of understanding of the CI systems in place.** Know how to pipeline your build, and how to add steps to it. You should also know how to debug build issues.
 
-![](https://cdn-images-1.medium.com/max/1600/1*-ssg-aIlk6BC23nuJUxqTA.png)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*-ssg-aIlk6BC23nuJUxqTA.png" alt="Have a bad time" position="center" style="border-radius: 8px;" >}}
 
 *   **Help operations when outages occur.** While they may be building and maintaining the supporting infrastructure, breakages often occur when changes happen. The apathetic mentality of _Not my problem_ is unacceptable. Every problem is _our_ problem.
 *   **Take collective ownership of cost.** This one is relevant if you’re working with public cloud offerings. Be careful what you run!
 *   **Understand how you can build robustness into your applications.** While it may not always be the most interesting type of work, doing things like improving your health check endpoint to include connectivity checking of your dependencies (databases, caches, etc), changing the way you host static files (moving to S3), and many more quality of life improvements make apps easier to debug when things go downhill.
 *   **You should be on-call for the applications you write/maintain.** While this may be a bit more contentious one, this remains my opinion. It’s unfair to expect the ops guy to know how to debug Node, Java, PHP, and C# applications. This falls into the bucket of every problem being _our problem._
 
-![](https://cdn-images-1.medium.com/max/1600/1*YdlvdLe-CJgCZD4stt__rw.jpeg)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*YdlvdLe-CJgCZD4stt__rw.jpeg" alt="Worked fine in dev" position="center" style="border-radius: 8px;" >}}
 
 What I’m trying to say is that a successful DevOps culture is dependent on **empathy**.
 

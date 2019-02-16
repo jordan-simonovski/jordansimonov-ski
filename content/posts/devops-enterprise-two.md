@@ -3,13 +3,11 @@ title: "DevOps & Enterprise — Part Deux"
 date: 2017-03-12T12:50:20+11:00
 ---
 
-# DevOps & Enterprise — Part Deux
-
-## Determining the teams you need to work with, understanding your constraints, and building something to try and solve the operational issues of an organisation.
+*Determining the teams you need to work with, understanding your constraints, and building something to try and solve the operational issues of an organisation.*
 
 I know, I probably offended some people by saying that I don’t particularly agree with configuration management scripts being used for infrastructure provisioning, middleware installations, and code deployment. That’s because I see certain places where this could potentially fit, but in others adds complexity.
 
-![](https://cdn-images-1.medium.com/max/1600/1*XxOLwjH2eu13sATwysIqsA.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*XxOLwjH2eu13sATwysIqsA.gif" alt="offence taken" position="center" style="border-radius: 8px;" >}}
 
 To begin, I wanted to run over a couple of scenarios of using static infrastructure, and configuration management tools the wrong way.
 
@@ -28,7 +26,7 @@ Now that the app is up and running, he needs to add it into the load balancer. �
 
 While he thinks he might have succeeded, 40 minutes have now passed, AWS restored their availability zone 15 minutes prior to that, and the server that was running on its own shut down.
 
-![](https://cdn-images-1.medium.com/max/1600/1*zMqW0Acv4LWxgI7zn5cGZA.gif)“Where do all of these fires keep coming from!?”
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*zMqW0Acv4LWxgI7zn5cGZA.gif" alt="charmander" position="center" style="border-radius: 8px;" caption="Where do all of these fires keep coming from!?" >}}
 
 To add further insult, a server has been manually provisioned (running a script yourself doesn’t make it automated). This server was provisioned on a script which was 20 commits older than the server that had been originally provisioned. What’s the difference? Well, the new server is unsurprisingly running on an older AMI, no monitoring has been set up, and the hosts file wasn’t updated in all of this mess. Tomorrow, the development team will find themselves no being able to deploy to their second server in AZB because it no longer exists. I’d call this a complete an utter failure which has introduced instability, and has operationally regressed. If this server is to go down for whatever reason, nobody is going to know because there is no monitoring.
 
@@ -42,13 +40,13 @@ After raising this with management, they tell you that all of the keys in produc
 The smelly monkey vulnerability has just been announced, and all of your servers in production will need to be updated to the newest AWS AMI or manually patched.
 With the amount of servers running on AWS, patching this zero-day vulnerability will take weeks of planning and orchestration. This is mostly due to the fact that the organisation is operating with static infrastructure. There is another team altogether which will need to patch every server individually while having another representative from each application verify that the change has been successful and hasn’t broken their production server.
 
-![](https://cdn-images-1.medium.com/max/1600/1*GRl_NSFIQnA4mYllshgypg.jpeg)What some of your Ops guys might look like when zero-day exploits have been announced.
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*GRl_NSFIQnA4mYllshgypg.jpeg" alt="try not to cry" position="center" style="border-radius: 8px;" caption="What some of your Ops guys might look like when zero-day exploits have been announced." >}}
 
 Working with these kinds of scenarios helped us determine what it was that we wanted to combat and change.
 
 ### Working within the Constraints of the Organisation — Understanding Conway’s Law
 
-![](https://cdn-images-1.medium.com/max/1200/1*FvDN5AH15F8v3W2ylS3KkA.png)
+{{< image src="https://cdn-images-1.medium.com/max/1200/1*FvDN5AH15F8v3W2ylS3KkA.png" alt="conway's law" position="center" style="border-radius: 8px;" >}}
 
 Before we began working on a solution, we needed to first do some analysis which would impact the technical implementation of our infrastructure. Infrastructure in larger organisations is heavily tied to the organisational structure (See: [Conway’s Law](http://www.design.caltech.edu/erik/Misc/Conway.html)).
 
@@ -65,7 +63,7 @@ Spending time understanding the constraints of the organisation can be a tedious
 
 ### Change Management
 
-![](https://cdn-images-1.medium.com/max/1200/1*PWIWIAwOX6k-4XDT5qWJTg.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1200/1*PWIWIAwOX6k-4XDT5qWJTg.gif" alt="changes" position="center" style="border-radius: 8px;" >}}
 
 Change management plays a very big part in any organisation. Now matter how good your implementation may be, and no matter how risk averse your new set of automation provides you, you’re not going to make very significant progress unless you get the Change Management Team involved in what you’re doing. 
 The philosophy of DevOps emphasises the need to minimise the batch sizes in your changes in order to minimise the risk that a particular change introduces (Continuous Delivery). However, what you’ll see in larger organisations is that changes are orchestrated by a larger committee or board which tries to ensure that a particular change will not affect other applications.
@@ -111,7 +109,7 @@ While this solution isn’t exactly _ideal_, as many of you would likely have mo
 
 ### So, What does this Give us?
 
-![](https://cdn-images-1.medium.com/max/1600/1*N51F_zvylKNaFx_vB68IhQ.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*N51F_zvylKNaFx_vB68IhQ.gif" alt="A whole new world" position="center" style="border-radius: 8px;" >}}
 
 The most important thing we get out of this is completely dynamic and ephemeral infrastructure. Every deployment of our code triggers a build of new EC2s. The fact that this is done via CloudFormation as well means that even the stack name can be programatically set (in our case, we prepended our name with a timestamp).
 
@@ -135,7 +133,7 @@ What we ended up with was hours of discussions about deployment patterns, practi
 
 What the Devs also got out of this was a greater understanding of the AWS Services available to them. We then started discussing ways of making our CI builds more visible by pushing build statuses out to Slack, and even looking into using Lambda functions to propagate critical monitoring alerts to a dedicated Slack Channel as well.
 
-![](https://cdn-images-1.medium.com/max/1600/1*cOCEmpsdTrtCB5jwmtntVQ.gif)Our team watching their collective effort go live.
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*cOCEmpsdTrtCB5jwmtntVQ.gif" alt="community" position="center" style="border-radius: 8px;" caption="Our team watching their collective effort go live." >}}
 
 We also saw discussions begin in the team about feedback loops of our deployments, and basically rethinking our testing and deployment strategies. Smoke tests that ran during deployments would be stripped down to check for basics, while more robust smoke tests and code scanning tasks would run as a nightly job.
 
@@ -159,7 +157,7 @@ Once your infrastructure is dynamic, it gets much easier to iterate on it and im
 
 Once your organisation is sold on the value that DevOps culture and practices bring, focus on SRE. Build better, build quicker, and build resilient systems. There’s absolutely nothing stopping even the biggest and oldest of enterprise organisations from _Being Netflix._
 
-![](https://cdn-images-1.medium.com/max/1600/1*EdDWhAMmbI8I38oXGPe0jQ.gif)I feel dirty for even attaching this.
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*EdDWhAMmbI8I38oXGPe0jQ.gif" alt="charmander" position="center" style="border-radius: 8px;" caption="I feel dirty for even attaching this." >}}
 
 So, if you’re finding yourself in a similar position, you might want to do a couple of things before trying to sell the organisation on DevOps.
 

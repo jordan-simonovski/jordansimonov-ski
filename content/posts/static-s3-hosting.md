@@ -3,9 +3,7 @@ title: "My Sunday Project — Static S3 Hosting"
 date: 2018-06-04T12:50:20+11:00
 ---
 
-# My Sunday Project — Static S3 Hosting
-
-Make the good way of serving your front-end the easy way.
+*Make the good way of serving your front-end the easy way.*
 
 Before I start, I might as well address some of the acronyms here for people who may be unfamiliar with AWS Services, or some other internet concepts:
 
@@ -13,7 +11,7 @@ Before I start, I might as well address some of the acronyms here for people who
 *   **What is CloudFront?** CloudFront is a [Content Distribution Network](https://en.wikipedia.org/wiki/Content_delivery_network) or CDN for short. This is particularly useful when running an app, as any outage you may have won’t affect it’s availability to your users (as far as just serving content is concerned).
 *   **What is a WAF (**[**Web Application Firewall**](https://en.wikipedia.org/wiki/Web_application_firewall)**)?** This is great for filtering, monitoring, and blocking traffic to your HTTP application. In our case, we’re blocking everything _except_ a whitelisted IP.
 
-![](https://cdn-images-1.medium.com/max/1600/1*YsTv59tGk_vctpF5qgeVOg.jpeg)When you get that site working at the lowlow cost of $0.40/month (check out my dist/index.html for more context)
+{{< figure src="https://cdn-images-1.medium.com/max/1600/1*YsTv59tGk_vctpF5qgeVOg.jpeg" alt="Bilbo" position="center" style="border-radius: 8px;" caption="When you get that site working at the lowlow cost of $0.40/month (check out my dist/index.html for more context)." >}}
 
 After having looked through a few examples of using S3 buckets to serve static content, I couldn’t help but wince at the fact that most of these tutorials were getting people to create public buckets. I decided to make it easy to set up a CDN.
 

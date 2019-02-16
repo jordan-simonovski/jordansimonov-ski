@@ -3,8 +3,6 @@ title: "DevOps & Enterprise — Reference List"
 date: 2017-03-12T13:50:20+11:00
 ---
 
-# DevOps & Enterprise — Reference List
-
 I didn’t just make a lot of this stuff up. I did some pretty extensive reading to understand what it is that other organisations do. Here are some of the books that I’d recommend:
 
 [**The Phoenix Project **](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)— This was the first piece of DevOps propaganda that I read. I didn’t fully understand what it was to have great IT Operations, and frankly I just wanted to do some cool cloud stuff. [Gene Kim](https://medium.com/@RealGeneKim) did a fantastic job at telling a story about an old-school organisation with outdated change processes, and how it transformed into a bastion of Continuous Delivery.

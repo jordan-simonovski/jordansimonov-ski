@@ -3,9 +3,7 @@ title: "DevOps & Enterprise — Introducing Cultural Change to Big Organisat
 date: 2017-03-12T11:50:20+11:00
 ---
 
-# DevOps & Enterprise — Introducing Cultural Change to Big Organisations
-
-## How introducing DevOps and SRE within the constraints of your organisation can help you win battles in your fight for better IT Operations.
+*How introducing DevOps and SRE within the constraints of your organisation can help you win battles in your fight for better IT Operations.*
 
 _(Apologies for my overuse of gifs. I like to break up my text with a gif every now and then)._
 
@@ -15,7 +13,7 @@ Also keep in mind that this covers the history and definition of DevOps, with [P
 
 So, for those of us currently in Enterprise Organisations _The Cloud_ sounds like this very scary/exciting concept. The Sysadmins at your company which have usually been in charge of your environments, deployments, and operations, look at _The Cloud_ similarly to the way that the Ape-Men looked at _The Monolith_ in _2001: A Space Odyssey._
 
-![](https://cdn-images-1.medium.com/max/1600/1*XssIvsJiNPGxxeorIzpYPw.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*XssIvsJiNPGxxeorIzpYPw.gif" alt="Monolith" position="center" style="border-radius: 8px;" >}}
 
 Operations teams in traditional organisations are tasked with safeguarding the running systems against the risk of change by introducing launch and change gates (which we commonly know as change approvals). 
 As outages occur, certain checks and steps are added into your change process, adding additional effort to a change which then drives a certain behaviour in development teams. _Since changes are so hard to orchestrate and get approved, we will introduce more change to our change and increase the risk of the change breaking._ Does this problem sound familiar? It’s a fairly common problem in the enterprise world. 
@@ -25,7 +23,7 @@ While this may sounds like a relatively sane process, it doesn’t exactly scale
 The Ops team eventually becomes sloppy, as does anyone doing manual, repetitive tasks. Things get missed, new people join the Ops team and things don’t get properly handed over, or the team simply can’t cope with the amount of changes being prioritised. Things then break.
 Once they break, the entire production line comes to a halt. Your development team can’t provide value to customers, as well as several other teams. The Ops team focuses solely on resolving that problem, and other work piles up. Teams become impatient, and work gets escalated only to get shot down by the Ops Lead saying that they need to deal with a _Severity One_ issue.
 
-![](https://cdn-images-1.medium.com/max/1600/1*NZaNH0SFe67HtTxKrPXkAg.png)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*NZaNH0SFe67HtTxKrPXkAg.png" alt="this is fine" position="center" style="border-radius: 8px;" >}}
 
 Your team’s stakeholders have now grown impatient. They’re now wasting their entire day waiting for two weeks worth of changes to go out to production which they then need to test, only to find bugs or typos which then need to be fixed by the development team trying to request another change to the already inundated Ops Team. Stakeholders eventually become frustrated and lose confidence in their development teams, and less funding is pushed to the teams which are already underfunded. People become frustrated with their ability to change anything, and eventually leave the company.
 
@@ -49,7 +47,7 @@ What happens with this is that:
 In this downwards spiral, people often feel stuck in a system which preordains failure and leaves them powerless to change the outcome. This powerlessness is often associated with burnout, with associated feelings of fatigue, cynicism, hopelessness and despair. This creates a culture where people are too scared to do the right thing because of their fear of punishment, failure, or jeopardising their livelihood.
 I guess, this happens to people who don’t want to leave. What you do lose is a lot of your technical talent who are there because they want to do the right thing and be great at their jobs.
 
-![](https://cdn-images-1.medium.com/max/1600/1*KLrJj9oMpdMLBGAxPC7Giw.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*KLrJj9oMpdMLBGAxPC7Giw.gif" alt="dead inside" position="center" style="border-radius: 8px;" >}}
 
 The Organisational costs that you introduce broadly fall into two categories. Direct and indirect costs:
 
@@ -60,19 +58,20 @@ The Organisational costs that you introduce broadly fall into two categories. Di
 
 So, at the and of this whole ordeal, we find our organisation in the following situation:
 
-![](https://cdn-images-1.medium.com/max/1600/1*EsFESfuo2am9PCMpt0cnlQ.gif)
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*EsFESfuo2am9PCMpt0cnlQ.gif" alt="slow down" position="center" style="border-radius: 8px;" >}}
 
 * * *
 
 ### Introducing DevOps
 
-![](https://cdn-images-1.medium.com/max/1600/1*PkJ2JPaSRMP_3aEtrTTUTA.gif)No, knowledge of Configuration Management tools does not make me “DevOps”
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*PkJ2JPaSRMP_3aEtrTTUTA.gif" alt="princess bride" position="center" style="border-radius: 8px;" >}}
+No, knowledge of Configuration Management tools does not make me “DevOps”
 
 For those of you out there who have been in the industry enough to be cynical of any new buzzword being thrown around like _Agile_ or _Lean_, don’t fret. DevOps is just a label that’s been applied to the collaboration between development and operations teams. Google has been doing this for over a decade, and has progressed far beyond it calling it _Site Reliability Engineering_ (which I admit, is a different discipline altogether).
 
 While many LinkedIn recruiters would have you think otherwise, DevOps isn’t knowledge of Ansible, or AWS, or Bash Scripting.
 
-![](https://cdn-images-1.medium.com/max/1600/1*J-iQ3Awh6J1fzx6hCTtlXw.png)
+{{< image src="https://i.imgur.com/sx1CWq5.png" alt="devops" position="center" style="border-radius: 8px;" >}}
 
 Not a method, or framework, or body of knowledge, or even **_shudders_**a vendor platform.
 
@@ -105,7 +104,8 @@ While none of this may seem particularly revolutionary, many enterprise organisa
 This means that servers are independently provisioned, and from what I’ve heard about some organisations, this is done via a request to an operations team.
 Configuration management tools like Ansible, Chef, or Puppet are then used to install middleware like Java, Apache, etc. The same config management tools are then used to deploy code to those servers.
 
-![](https://cdn-images-1.medium.com/max/1600/1*xNzClkurRjqkkK9fzKuW-Q.gif)That’s just like, my opinion.
+{{< image src="https://cdn-images-1.medium.com/max/1600/1*xNzClkurRjqkkK9fzKuW-Q.gif" alt="wrong wrong wrong" position="center" style="border-radius: 8px;" >}}
+That’s just like, my opinion.
 
 I’m not sure if you can see something incredibly wrong with this, but let’s just see what we can find from that short blurb:
 
