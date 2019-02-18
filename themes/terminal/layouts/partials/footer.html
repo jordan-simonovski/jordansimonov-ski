@@ -9,6 +9,7 @@
       </div>
     {{end}}
   </div>
+  {{ if or $.Site.Params.twitterLink $.Site.Params.githubLink }}
   <div class="footer__inner center">
       {{ if $.Site.Params.twitterLink }}
         <a href="{{ $.Site.Params.twitterLink }}" target="_blank">
@@ -21,6 +22,7 @@
         </a>
       {{end}}
   </div>
+  {{end}}
 </footer>
 
 <script src="{{ "assets/main.js" | absURL }}"></script>
