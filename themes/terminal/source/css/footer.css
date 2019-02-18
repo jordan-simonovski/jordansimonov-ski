@@ -16,8 +16,13 @@
     }
   }
 
+  .center {
+    justify-content: center;
+  }
+
   a {
     color: inherit;
+    padding: 1em;
   }
 
   .copyright {

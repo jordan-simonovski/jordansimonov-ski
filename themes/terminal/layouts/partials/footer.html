@@ -9,6 +9,18 @@
       </div>
     {{end}}
   </div>
+  <div class="footer__inner center">
+      {{ if $.Site.Params.twitterLink }}
+        <a href="{{ $.Site.Params.twitterLink }}" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i> 
+        </a>
+      {{end}}
+      {{ if $.Site.Params.githubLink }}
+        <a href="{{ $.Site.Params.githubLink }}" target="_blank">
+          <i class="fab fa-github-alt fa-2x"></i>
+        </a>
+      {{end}}
+  </div>
 </footer>
 
 <script src="{{ "assets/main.js" | absURL }}"></script>
