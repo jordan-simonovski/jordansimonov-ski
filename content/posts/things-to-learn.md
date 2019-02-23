@@ -16,6 +16,11 @@ Should I probably fix up the medium migration script to be more Hugo specific? I
 - ☑️ Deep-dive into TypeScript
 - ☑️ WAF Tuning (bleh)
 
+## What should I probably tinker with?
+
+- ☑️ Terraform for configuring more than just infra
+- ☑️ [Google's CDK](https://github.com/google/go-cloud)
+
 ## What should I probably write about?
 
 - ☑️ Security best practices for your org
