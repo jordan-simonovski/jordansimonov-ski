@@ -2,6 +2,7 @@ baseURL: https://blog.jordansimonov.ski/
 title: Jordan Simonovski
 Copyright: Jordan Simonovski
 googleAnalytics: UA-134665544-1
+disqusShortname: jordansimonovski
 
 baseurl: '/'
 languageCode: en-us"
