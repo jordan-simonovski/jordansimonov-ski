@@ -20,19 +20,28 @@ Convoluted sub-title aside, what I'm trying to say is that we should give a 💩
 - Is it up-to-date?
 - How much does it cost?
 
-What gives us this kind of visibility is the investment centralised observability.
+What gives us this kind of visibility is the investment in centralised observability.
 
-## 2) How Are Things Being Deployed?
+## 2) Invest in Great Tooling
+
+As most organisations begin to grow, the scripts that we once used to deploy our applications no longer fit the complexity of the ecosystem that we have gradually created over the years. 
+Whether this is with a team setting up the tooling that allows development teams the flexibility to work within a more standardised platform, there needs to be a sense of complete ownership of the platform that the devs are interacting with.
 
 ## 3) Trimming the Fat
 
+Focus on spending time identifying the infra that isn't being used or that isn't delivering value to the business, and get rid of it. Get into the habit of treating your infrastucture as ephemeral, and get rid of the things you no longer need. Your sanity managing all of that infra, your security engineer will be happier with a smaller threat landscape, and your AWS bill will remain maintainable.
+
 ## 4) What Are Our Feature Lead Times?
+
+Is the complexity of our ecosystem impeding products' ability to deliver more features? How do we make this as effortless as possible without sacrificing stability and security?
 
 ## 5) How Comfortable Are Devs with Owning Their Apps End to End?
 
+Give a 💩 about teams being comfortable with teams owning their applications end-to-end. This means, owning development, testing, deployments, maintenance, and on-call.
+
 ## 6) Is Reliability a Requirement?
 
-## 7) Do We Have the Right Security Controls in Place?
+Give a 💩 about making reliability a requirement. If your engineers are spending every morning 
 
-## 8) Invest in Great Tooling
+## 7) Do We Have the Right Security Controls in Place?
 
