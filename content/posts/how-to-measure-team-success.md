@@ -1,7 +1,6 @@
 ---
 title: "DevOps - What to Give a 💩 About"
-date: 2019-02-23T17:00:00+11:00
-draft: true
+date: 2019-02-24T17:00:00+11:00
 summary: "What makes DevOps successful?"
 tags: ["devops","culture","organisation","operations"]
 ---
@@ -41,7 +40,16 @@ Give a 💩 about teams being comfortable with teams owning their applications e
 
 ## 6) Is Reliability a Requirement?
 
-Give a 💩 about making reliability a requirement. If your engineers are spending every morning 
+Give a 💩 about making reliability a requirement. If your engineers are spending every morning fixing up an environment because it can't successfully recover, make some time to fix it before it becomes a much bigger problem.
 
 ## 7) Do We Have the Right Security Controls in Place?
 
+One often forgotten thing to focus on in most organisations is making security the easy thing to do. If you're requiring developers to fill out some kind of spreadsheet and update data flow diagrams with every release they try to make, you're doing it wrong.
+Invest in automating security controls like:
+- container scanning
+- port scanning
+- dynamic/static code analysis
+- put the right controls in place on the IAM roles devs are making for their apps.
+- get a good secrets management solution in place
+
+This is by far one of the hardest things to do in order to maintain operational efficacy as well as security in an organisation.
