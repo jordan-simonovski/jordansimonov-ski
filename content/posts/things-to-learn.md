@@ -10,7 +10,6 @@ Should I probably fix up the medium migration script to be more Hugo specific? I
 
 ## 🤓 What should I probably learn?
 
-- Deep-dive into linux cgroups
 - Find some more systems engineering things to cover
 - Deep-dive into Golang
 - Deep-dive into TypeScript
