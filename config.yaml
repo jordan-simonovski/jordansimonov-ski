@@ -3,7 +3,6 @@ title: Jordan Simonovski
 Copyright: Jordan Simonovski
 googleAnalytics: UA-134665544-1
 disqusShortname: jordansimonovski
-
 baseurl: '/'
 languageCode: en-us"
 theme: terminal
@@ -11,6 +10,8 @@ paginate: 5
 
 params:
   contentTypeName: posts
+  cover: https://i.imgur.com/zU8G2JR.jpg
+  tagline: Rants | TILs | Opinions
   themeColor: green
   showMenuItems: 2
   description: 'Rants. Opinions. TILs.'
