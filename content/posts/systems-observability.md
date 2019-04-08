@@ -19,16 +19,29 @@ When considering observability, it is useful to know the following:
 
 - No complex system is ever fully healthy.
 - Distributed systems are pathologically unpredictable.
-- It's impossible to predict the different states of partial failure that various part s of the system might end up in.
+- It's impossible to predict the different states of partial failure that various parts of the system might end up in.
 - Failure needs to be embraced at every phase, from system design to implementation, testing, deployment, and operation.
 
 In this post, I'll aim to cover a few things we should be doing, such as:
 
+- [Defining SLIs, SLAs, and SLOs](#defining-slis-slas-and-slos)
 - [Good Coding and Testing Practicess](#good-coding-and-testing-practicess)
 - [What Should We Be Monitoring?](#what-should-we-be-monitoring)
 - [What Should We Be Logging?](#what-should-we-be-logging)
 - [What Should We Be Alerting?](#what-should-we-be-alerting)
 - [Some Notes](#some-notes)
+
+## Defining SLIs, SLAs, and SLOs
+
+Before beginning to even come up with monitoring for your systems, you should understand what "healthy" looks like for them and how that can be determined. While we would all love to have 100% uptime of our systems, we should know that this is something that is impossible to determine given the amount of variables that come into play outside of what we have control over.
+
+As Google's SRE Handbook mentions, the more reliable you want to make a service, the more it'll cost to operate. Moving from 99.9% to 99.99% can be a costly endeavour and often requires some Herculean efforts to pull off. What we want to define ourselves is the lowest level of reliability we can get away with (a static, numerical value), and that is what we define as a **Service-Level Objective (SLO)**.
+
+A **Service-Level Agreement (SLA)** is a promise to someone that our availability SLO will meet a certain level over a certain period, and failure to do so means a penalty will be paid. This could be a partial refund of a subscription, or additional subscription time added to someone's account. The severity of the penalties issued by the breach of a SLA should dictate how much money is invested in ensuring reliability of systems.
+
+A **Service-Level Indicator (SLI)**, however, is a metric that we use internally, and this metric should determine a service availability percentage that we use to determine if we have been running within our SLO for a certain period of time. Monitoring a SLI and alerting on it should indicate that we need to invest more effort in the reliability of the system that has been affected.
+
+Having an idea of all three of these should give us some clarity around what we're using to detemine system availability.
 
 ## Good Coding and Testing Practicess
 
@@ -36,7 +49,7 @@ Historically, the idea of testing was something that was only ever referred to a
 
 The idea that production environments are sacred and not meant to be fiddled around with also means that our pre-production environments are at best a pale imitation of what production actually looks like. The [12 Factor App](https://12factor.net/) manifesto focuses on the applications we write having minimal divergence between development and production.
 
-While pre-production testing is very much a common practice in modern software development, the idea of experimenting with live traffic is seen as something alarming. This requires not only a change in mindset, but also importantly requires an overhaul in system design, along with a solid investment in release engineering practices and tooling.
+While pre-production testing is very much a common practice in modern software development, the idea of testing with live traffic is seen as something alarming. This requires not only a change in mindset, but also importantly requires an overhaul in system design, along with a solid investment in release engineering practices and tooling.
 
 In essence, not only do we want to architect for failure, but also coding and testing for failure when the default is to code and test for success.
 
@@ -94,6 +107,9 @@ As long as we are monitoring what is referred to as the [Four Golden Signals in 
 ## What Should We Be Logging?
 
 While logging gives is a great high level overview, it is only really useful if we are getting useful information from our logs. It's not really worth logging literally everything that your application does, as there are much better ways of introspecting application behaviour such as tracing.
+
+In most organisations, there always seems to be a severe lack of understanding of the logging platforms that have been implemented. If you've read [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592), you'll probably realise that the lack of understanding of things like logging platforms comes from _Brent_. He is the guy that knows how to do everything, is responsive to everyone, and generally the most helpful guy. As a result Brent becomes a bottleneck for all work endeavors. This comes from a culture of “easier to do it than explain it or teach it”, and this becomes a problem when dealing with distributed systems.
+If you identify a Brent in your organisation, call it out, and have that information shared with everyone before it becomes a problem.
 
 When writing our own applications, we must consider what we could use the logs for, and how we can enable more verbose logging (DEBUG). The requirements for logging should include, but not be limited to:
 
