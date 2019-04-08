@@ -5,7 +5,7 @@ summary: "Before even beginning to set things up, we should understand what make
 tags: ["infra","observability","monitoring","logging"]
 header:
   image: "https://media.giphy.com/media/jsl2rkThL2Pjq/giphy.gif"
-  caption: "Setting Up Observable Systems - What To Consider Before Writing Your First Line of Code"
+  caption: "Before even beginning to set things up, we should understand what makes good monitoring, logging, and alerting"
 ---
 
 Observability is still a relatively novel concept to many organisations. While it's easy to say that you want to do "observability", it is in fact a state that your systems are in. Monitoring, logging, and tracing of systems are things that we should do in order to achieve *observable systems*.
@@ -13,7 +13,7 @@ Observability is still a relatively novel concept to many organisations. While i
 This is the first post I'll be making in a series of post centred around observability practices, and will be covering the basics of practices to help you achieve more observable systems. The next post in this series will be covering observability as code, and how I've used Terraform to make setting up DataDog a breeze for new applications.
 Something I'll also want to cover is SLIs, and how they should be determined when making applications production-ready.
 
-I am also paraphrasing a few things from Google's Site Reliability Handbook (freely available [here](https://landing.google.com/sre/sre-book/toc/)) which I have found incredibly useful in determining what good observability looks like.
+I am also paraphrasing a few things from [Google's Site Reliability Handbook](https://landing.google.com/sre/sre-book/toc/) and [Distributed Systems Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/), both of which I have found incredibly useful in determining what good observability looks like.
 
 When considering observability, it is useful to know the following:
 
