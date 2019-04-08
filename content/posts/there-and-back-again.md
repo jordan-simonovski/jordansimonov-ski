@@ -1,10 +1,9 @@
 ---
 title: "There and Back Again"
 date: 2018-04-23T12:50:20+11:00
-summary: "How my move out of a product team to an infrastructure team, and back again changed my view on DevOps and end-to-end ownership of products."
+author: "Jordan Simonovski"
+description: "How my move out of a product team to an infrastructure team, and back again changed my view on DevOps and end-to-end ownership of products."
 tags: ["devops","culture"]
-header:
-  caption: "How my move out of a product team to an infrastructure team, and back again changed my view on DevOps and end-to-end ownership of products."
 ---
 
 When I started my career in IT, I was working in an organisation where so many bits and pieces of the Software Delivery Life Cycle were out of my control. Many developers I worked with had just come to terms with the fact that every deployment of our app would take about a day of effort, as well as the involvement of three to four other teams.

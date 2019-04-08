@@ -1,11 +1,10 @@
 ---
 title: "Systems Observability - What To Consider Before Writing Your First Line of Code"
 date: 2019-04-07T11:30:20+11:00
-summary: "Before even beginning to set things up, we should understand what makes good monitoring, logging, and alerting."
+author: "Jordan Simonovski"
+description: "Before even beginning to set things up, we should understand what makes good monitoring, logging, and alerting."
 tags: ["infra","observability","monitoring","logging"]
-header:
-  image: "https://media.giphy.com/media/jsl2rkThL2Pjq/giphy.gif"
-  caption: "Before even beginning to set things up, we should understand what makes good monitoring, logging, and alerting"
+cover: "https://media.giphy.com/media/jsl2rkThL2Pjq/giphy.gif"
 ---
 
 Observability is still a relatively novel concept to many organisations. While it's easy to say that you want to do "observability", it is in fact a state that your systems are in. Monitoring, logging, and tracing of systems are things that we should do in order to achieve *observable systems*.
@@ -57,13 +56,14 @@ In essence, not only do we want to architect for failure, but also coding and te
 
 We should aspire to look to expand the reach of our testing. The following diagram mentions many of the ways we can begin writing more resilient systems:
 
-{{< image src="/img/testing.webp" alt="Testing" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/img/testing.webp" alt="Testing" position="center" style="border-radius: 8px;" caption="Figure 3-1 from Distributed Systems Observability by Cindy Sridharan" >}}
+
 
 ## What Should We Be Monitoring?
 
 Observability is a superset of both monitoring and testing. It provides information about unpredictable failure modes that couldn't be monitored or tested.
 
-{{< image src="/img/monitoring.webp" alt="Monitoring" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/img/monitoring.webp" alt="Monitoring" position="center" style="border-radius: 8px;" caption="Figure 2-1 from Distributed Systems Observability by Cindy Sridharan" >}}
 
 That being said, we should still focus on having a minimal set of requirements for monitoring our systems.
 A good set of metrics to begin with for monitoring are the [USE Method](http://www.brendangregg.com/usemethod.html) and [RED Metrics](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/). Depending on the use case, we should be able to monitor some if not all of these metrics.
@@ -157,7 +157,7 @@ In Part Two of this series, I'll be covering monitoring as code (as all good thi
 I wouldn't have been able to write this without all of the great material already available:
 
 - [Site Reliability Engineering](https://landing.google.com/sre/sre-book/toc/)
-- [Distributed Systems Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/)
+- [Distributed Systems Observability](https://distributed-systems-observability-ebook.humio.com/)
 - [12 Factor App](https://12factor.net/)
 - [SLIs, SLAs and SLOs](https://cloud.google.com/blog/products/gcp/sre-fundamentals-slis-slas-and-slos)
 - [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)

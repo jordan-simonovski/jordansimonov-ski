@@ -1,7 +1,8 @@
 ---
 title: "Things I Should Probably Learn - 2019"
 date: 2019-02-21T08:24:20+11:00
-summary: "A list of things I might want to learn that I should probably maybe maintain."
+author: "Jordan Simonovski"
+description: "A list of things I might want to learn that I should probably maybe maintain."
 tags: ["personal","tech","learning"]
 ---
 

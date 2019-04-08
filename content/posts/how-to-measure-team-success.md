@@ -1,7 +1,8 @@
 ---
 title: "DevOps - What to Give a 💩 About"
 date: 2019-02-24T17:00:00+11:00
-summary: "What makes DevOps successful?"
+author: "Jordan Simonovski"
+description: "What makes DevOps successful?"
 tags: ["devops","culture","organisation","operations"]
 ---
 

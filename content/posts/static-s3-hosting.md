@@ -1,10 +1,9 @@
 ---
 title: "My Sunday Project — Static S3 Hosting"
 date: 2018-06-04T12:50:20+11:00
-summary: "Make the good way of serving your front-end the easy way."
+author: "Jordan Simonovski"
+description: "Make the good way of serving your front-end the easy way."
 tags: ["devops","tech","aws","static"]
-header:
-  caption: "Make the good way of serving your front-end the easy way."
 ---
 
 Before I start, I might as well address some of the acronyms here for people who may be unfamiliar with AWS Services, or some other internet concepts:
