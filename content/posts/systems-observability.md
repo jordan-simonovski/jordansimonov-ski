@@ -139,5 +139,6 @@ In Part Two of this series, I'll be covering monitoring as code (as all good thi
 I wouldn't have been able to write this without all of the great material already available:
 
 - [Site Reliability Engineering](https://landing.google.com/sre/sre-book/toc/)
+- [Distributed Systems Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/)
 - [12 Factor App](https://12factor.net/)
 - [SLIs, SLAs and SLOs](https://cloud.google.com/blog/products/gcp/sre-fundamentals-slis-slas-and-slos)
