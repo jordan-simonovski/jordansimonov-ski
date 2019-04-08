@@ -37,11 +37,13 @@ Before beginning to even come up with monitoring for your systems, you should un
 
 As Google's SRE Handbook mentions, the more reliable you want to make a service, the more it'll cost to operate. Moving from 99.9% to 99.99% can be a costly endeavour and often requires some Herculean efforts to pull off. What we want to define ourselves is the lowest level of reliability we can get away with (a static, numerical value), and that is what we define as a **Service-Level Objective (SLO)**.
 
-A **Service-Level Agreement (SLA)** is a promise to someone that our availability SLO will meet a certain level over a certain period, and failure to do so means a penalty will be paid. This could be a partial refund of a subscription, or additional subscription time added to someone's account. The severity of the penalties issued by the breach of a SLA should dictate how much money is invested in ensuring reliability of systems.
+A **Service-Level Agreement (SLA)** is a promise to someone that our availability SLO will meet a certain level over a certain period, and failure to do so means a penalty will be paid. This could be a partial refund of a subscription, or additional subscription time added to someone's account. The severity of the penalties issued by the breach of a SLA should dictate how much money is invested in ensuring reliability of systems. This could be something like 99% uptime over the course of a year. For a 24/7 service, this equates to 87.6 hours of downtime breaching the SLA.
 
-A **Service-Level Indicator (SLI)**, however, is a metric that we use internally, and this metric should determine a service availability percentage that we use to determine if we have been running within our SLO for a certain period of time. Monitoring a SLI and alerting on it should indicate that we need to invest more effort in the reliability of the system that has been affected.
+A **Service-Level Indicator (SLI)** however, is a metric that we use internally, and this metric should visualise a service availability percentage that we use to determine if we have been running within our SLO for a certain period of time. Monitoring a SLI and alerting on it should indicate that we need to invest more effort in the reliability of the system that has been affected.
 
-Having an idea of all three of these should give us some clarity around what we're using to detemine system availability.
+Having an idea of all three of these should give us some clarity around what we're using to determine system availability.
+
+Running distributed systems gives us the flexibility to set different SLOs for different services that we run. When running monolithic systems, it becomes incresingly likely that a service cannot degrade gracefully, but an issue unrelated to core business functionality can cause outages to core systems.
 
 ## Good Coding and Testing Practicess
 
@@ -158,3 +160,4 @@ I wouldn't have been able to write this without all of the great material alread
 - [Distributed Systems Observability](https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/)
 - [12 Factor App](https://12factor.net/)
 - [SLIs, SLAs and SLOs](https://cloud.google.com/blog/products/gcp/sre-fundamentals-slis-slas-and-slos)
+- [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
