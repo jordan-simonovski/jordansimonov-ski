@@ -28,7 +28,7 @@
 <meta name="twitter:site" content="{{ $.Site.BaseURL }}" />
 <meta name="twitter:creator" content="{{ .Params.Author }}" />
 {{ if .Params.cover }}
-<meta name="twitter:image" content="{{ if .IsHome}}{{ $.Site.Params.Cover }}{{else}}{{ .Params.cover }}{{ end }}">
+<meta name="twitter:image" content="{{ if .IsHome}}{{ $.Site.Params.Cover }}{{else}}{{ .Params.cover | absURL }}{{ end }}">
 {{- else }}
 <meta name="twitter:image" content="{{ with $.Site.Params.Cover }}{{ . | absURL }}{{ end }}">
 {{ end }}
@@ -43,18 +43,17 @@
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}" />
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ .Description | plainify }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ $.Site.BaseURL }}" />
 
 {{ if .Params.cover }}
-<meta property="og:image" content="{{ if .IsHome}}{{ $.Site.Params.Cover }}{{else}}{{ .Params.cover }}{{ end }}">
+<meta property="og:image" content="{{ if .IsHome}}{{ $.Site.Params.Cover }}{{else}}{{ .Params.cover | absURL }}{{ end }}">
 {{- else }}
 <meta property="og:image" content="{{ with $.Site.Params.Cover }}{{ . | absURL }}{{ end }}">
 {{ end }}
 
-<meta property="og:image" content="{{ with $.Site.Params.Cover }}{{ . | absURL }}{{ end }}">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
