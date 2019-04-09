@@ -46,7 +46,7 @@
 <meta property="og:title" content="{{ if .IsHome }}{{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ else }}{{ .Title }} :: {{ $.Site.Title }} — {{ $.Site.Params.Subtitle }}{{ end }}">
 <meta property="og:description" content="{{ if .IsHome }}{{ $.Site.Params.tagline }}{{ else }}{{ .Description | plainify }}{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-<meta property="og:site_name" content="{{ .Title }}" />
+<meta property="og:site_name" content="{{ $.Site.BaseURL }}" />
 
 {{ if .Params.cover }}
 <meta property="og:image" content="{{ if .IsHome}}{{ $.Site.Params.Cover }}{{else}}{{ .Params.cover }}{{ end }}">
