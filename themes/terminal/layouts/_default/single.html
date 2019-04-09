@@ -6,6 +6,7 @@
         {{ .Date.Format "2006-01-02" }}
       </span>
       {{ with .Params.Author }}<span class="post-author">:: {{ . }}</span>{{ end }}
+      {{ with .ReadingTime }}<span class="post-author">:: {{ . }} minutes</span>{{ end }}
     </div>
 
     {{ if .Params.tags }}
