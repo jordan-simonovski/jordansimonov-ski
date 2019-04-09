@@ -52,7 +52,7 @@ The idea that production environments are sacred and not meant to be fiddled aro
 
 While pre-production testing is very much a common practice in modern software development, the idea of testing with live traffic is seen as something alarming. This requires not only a change in mindset, but also importantly requires an overhaul in system design, along with a solid investment in release engineering practices and tooling.
 
-In essence, not only do we want to architect for failure, but also coding and testing for failure when the default is to code and test for success.
+In essence, not only do we want to architect for failure, but also coding and testing for failure when the default is to code and test for success. We must also acknowledge that our work isn't done once we've pushed our code to production.
 
 We should aspire to look to expand the reach of our testing. The following diagram mentions many of the ways we can begin writing more resilient systems:
 
@@ -118,8 +118,9 @@ When writing our own applications, we must consider what we could use the logs f
 - **Structured logs over plaintext logs (unstructured/common log formats) for applications we maintain** - Typically these days, structured logs are in JSON format, which makes them easier to digest, process, and query without the need of having to set up additional logging infrastructure to transform logs.
 - **WARN and ERROR logs being captured in production-like environments (staging/production)** - INFO level logs such as access logs will be captured by ingress controllers (routers/reverse proxies/load balancers). DEBUG logs should be turned off in environments that aren't a local/development environment.
 - **Personally Identifiable Information (PII) should be obfuscated or removed from log messages** - logging should never include PCI or PII. If we need some kind of audits in place, references to information should be used instead (think transaction ID, application ID, etc). Many companies fall into this trap including [Twitter](https://arstechnica.com/information-technology/2018/05/twitter-advises-users-to-reset-passwords-after-bug-posts-passwords-to-internal-log/).
-- **Logging every major entry and exit point of a request** - Which is helpful when identifying any potential failures when executing particular types of requests. Depending on the observability platform you're working with, injecting trace IDs into these logs can prove to be incredibly useful.
+- **Logging every major entry and exit point of a request** - Which is helpful when identifying any potential failures when executing particular types of requests. Depending on the observability platform you're working with, injecting trace IDs into these logs can prove to be incredibly useful. By injecting trace IDs into your logs, you're able to get a direct correlation between a log event and trace event which can prove to be incredibly useful when debugging issues in production.
 - **Log every decision point of a request** - This should give us more information about the codepath taken with a request, and where a potential failure may have occured. Grafana's [Loki](https://grafana.com/loki) has made tracing log events to metrics and vice-versa incredibly useful.
+- **Log with Intent** - When logging, ask yourself if ```Connected to service: x``` is really a useful log to be throwing in with everything else. Does this signal a healthy system? Can we get the same information out of a trace event? If so, should we limit the amount of noise we're producing in our logs?
 
 For the last two points (logging major entry, exit, and decision points), the idea is to have them all semantically linked in a way (request ID), that allows us to:
 
