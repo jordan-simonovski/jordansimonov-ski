@@ -4,7 +4,7 @@ date: 2019-04-07T11:30:20+11:00
 author: "Jordan Simonovski"
 description: "Before even beginning to set things up, we should understand what makes good monitoring, logging, and alerting."
 tags: ["infra","observability","monitoring","logging"]
-cover: "https://media.giphy.com/media/jsl2rkThL2Pjq/giphy.gif"
+cover: "/img/seinfeld.webp"
 ---
 
 Observability is still a relatively novel concept to many organisations. While it's easy to say that you want to do "observability", it is in fact a state that your systems are in. Monitoring, logging, and tracing of systems are things that we should do in order to achieve *observable systems*.
