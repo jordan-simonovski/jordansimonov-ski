@@ -30,4 +30,4 @@ Should I probably fix up the medium migration script to be more Hugo specific? I
 ## 🛠 What should I probably build?
 
 - Medium post to Hugo post converter
-- Rewrite a bunch of slack bots into a ~~not shit language like python~~ language I want to learn more about.
+- Rewrite a bunch of slack bots into a language I want to learn more about.
