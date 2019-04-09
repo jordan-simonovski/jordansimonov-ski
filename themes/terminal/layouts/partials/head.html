@@ -33,6 +33,12 @@
 <meta name="twitter:image" content="{{ with $.Site.Params.Cover }}{{ . | absURL }}{{ end }}">
 {{ end }}
 
+<!-- reading time -->
+{{ if not $.IsHome }}
+<meta name="twitter:label1" value="Reading Time">
+<meta name="twitter:data1" value="{{ .ReadingTime }} minutes">
+{{ end }}
+
 
 <!-- OG data -->
 <meta property="og:locale" content="{{ $.Site.Language.Lang }}" />
