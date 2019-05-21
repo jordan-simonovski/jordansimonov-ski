@@ -99,6 +99,8 @@ That being said, SLOs aren't set in stone. If a team is struggling to deploy new
 - The ability to monitor and alert on systems accurately
 - A better acceptance of failure with our systems. 100% reliability can never be promised, and having objective measures around this can help a business understand the cost of increasing system reliability.
 
+Effectively, we use SLIs to make SLOs so that we can make Error Budgets in order to tell people to fuck off when they ask why we haven't shipped feature X even though we've had 6 hours of downtime this quarter due to our shitty code.
+
 ## Notes
 
 In part three I'll _actually_ be covering setting up monitoring in IaC, particularly covering DataDog and how API driven platform allow for easier to maintain and understand monitoring setups for our systems.
