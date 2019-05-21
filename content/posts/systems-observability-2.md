@@ -1,6 +1,6 @@
 ---
 title: "Systems Observability - Using Terraform to Create DataDog Monitors"
-date: 2019-04-07T11:30:20+11:00
+date: 2019-06-07T11:30:20+11:00
 author: "Jordan Simonovski"
 draft: true
 description: "API-enabled platforms like DataDog give us the ability to utilise infrastructure-as-code principles to easily create and maintain our monitoring setups."

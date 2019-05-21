@@ -153,7 +153,9 @@ The human cost of alerting is something that should come into consideration when
 
 ## Some Notes
 
-In Part Two of this series, I'll be covering monitoring as code (as all good things should be) in DataDog, and how robust Infrasturcture as Code Tooling such as Terraform allows for idempotency and repeatability in setting all of this up.
+~~In Part Two of this series, I'll be covering monitoring as code (as all good things should be) in DataDog, and how robust Infrasturcture as Code Tooling such as Terraform allows for idempotency and repeatability in setting all of this up.~~
+
+In part two of this series, I've decided to cover some of the basics of monitoring like setting useful SLIs, SLOs, and what they mean for your business.
 
 I wouldn't have been able to write this without all of the great material already available:
 
