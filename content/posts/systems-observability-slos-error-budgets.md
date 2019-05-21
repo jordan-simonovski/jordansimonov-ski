@@ -20,7 +20,7 @@ Many organisations fall into the trap of monitoring everything in their systems 
 
 For argument's sake, we'll only cover public facing systems in this post, but Google's [SRE Handbook](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/) covers a lot of other types of systems in more detail.
 
-The first question we should be asking ourselves is what we think is meaningful to measure for our public facing system. The first thing we should be asking ourselves is not only what _we_ care about, but also about what our _users_ care about.
+The first question we should be asking ourselves is what we think is meaningful to measure for our public facing system. We should be asking ourselves is not only what _we_ care about, but also what our _users_ care about.
 
 In this case, we usually care about:
 
@@ -30,7 +30,7 @@ In this case, we usually care about:
 
 Now that we've established some baseline indicators for determining the reliability of our public facing system, we want to start collecting and aggregating data on this. The first thing that people will use for a latency indicator is something like an average response time over a particular period of time.
 
-I'm here to tell you (well, not just me, but a few other people) that averages lie, and obfuscate some very important data which could be pivotal in determining the reliability of our systems.
+I'm here to tell you (well, not just me, but a few other people - linked below) that averages lie, and obfuscate some very important data which could be pivotal in determining the reliability of our systems.
 What we should instead be using instead of averages is percentile measurements.
 
 ### Percentiles, and Why Averages Lie
@@ -103,7 +103,7 @@ Effectively, we use SLIs to make SLOs so that we can make Error Budgets in order
 
 ## Notes
 
-In part three I'll _actually_ be covering setting up monitoring in IaC, particularly covering DataDog and how API driven platform allow for easier to maintain and understand monitoring setups for our systems.
+In part three I'll _actually_ be covering setting up monitoring in IaC, particularly around how we've DataDog and how API driven platforms allow for easy to maintain monitoring setups with version controlled monitoring configurations.
 
 ## References
 
