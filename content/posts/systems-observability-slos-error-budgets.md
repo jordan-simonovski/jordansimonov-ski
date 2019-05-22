@@ -87,7 +87,7 @@ If we go over an example of a public facing system:
 
 ### What Do We Get out of an Error Budget
 
-What error budgets give us is a very clear indication of how much risk we can accept within a certain period of time. While the budget is large, product development teams are able to take more risks which could help them such as skimping on testing to increase feature delivery velocity. 
+What error budgets give us is a very clear indication of how much risk we can accept within a certain period of time. While the budget is large, product development teams are able to take more risks, such as skimping on testing to increase feature delivery velocity. 
 Once the error budget is close to being drained, the development teams themselves will push for more testing or slowing down their release velocity. This effectively makes teams self-policing in terms of the amount of risk they are willing to accept without causing tensions between teams.
 
 That being said, SLOs aren't set in stone. If a team is struggling to deploy new features they may elect to loosen their SLO, giving them more wriggle room with availability.
