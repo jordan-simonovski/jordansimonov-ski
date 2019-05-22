@@ -20,7 +20,7 @@ Many organisations fall into the trap of monitoring everything in their systems 
 
 For argument's sake, we'll only cover public facing systems in this post, but Google's [SRE Handbook](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/) covers a lot of other types of systems in more detail.
 
-The first question we should be asking ourselves is what we think is meaningful to measure for our public facing system. We should be asking ourselves is not only what _we_ care about, but also what our _users_ care about.
+The first question we should be asking ourselves is what we think is meaningful to measure for our public facing system. We should be asking ourselves not only what _we_ care about, but also what our _users_ care about.
 
 In this case, we usually care about:
 

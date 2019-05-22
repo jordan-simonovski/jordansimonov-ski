@@ -24,7 +24,7 @@ When considering observability, it is useful to know the following:
 In this post, I'll aim to cover a few things we should be doing, such as:
 
 - [Defining SLIs, SLAs, and SLOs](#defining-slis-slas-and-slos)
-- [Good Coding and Testing Practicess](#good-coding-and-testing-practicess)
+- [Good Coding and Testing Practices](#good-coding-and-testing-practices)
 - [What Should We Be Monitoring?](#what-should-we-be-monitoring)
 - [What Should We Be Logging?](#what-should-we-be-logging)
 - [What Should We Be Alerting?](#what-should-we-be-alerting)
@@ -44,7 +44,7 @@ Having an idea of all three of these should give us some clarity around what we'
 
 Running distributed systems gives us the flexibility to set different SLOs for different services that we run. When running monolithic systems, it becomes incresingly likely that a service cannot degrade gracefully, but an issue unrelated to core business functionality can cause outages to core systems.
 
-## Good Coding and Testing Practicess
+## Good Coding and Testing Practices
 
 Historically, the idea of testing was something that was only ever referred to as a pre-production or pre-release activity. This school of thought is slowly being phased out as development teams are now responsible for developing, testing, and operating the services they make.
 
