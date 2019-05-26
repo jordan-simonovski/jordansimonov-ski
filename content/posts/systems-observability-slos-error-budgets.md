@@ -103,7 +103,7 @@ Effectively, we use SLIs to make SLOs so that we can make Error Budgets in order
 
 ## Notes
 
-In part three I'll _actually_ be covering setting up monitoring in IaC, particularly around how we've DataDog and how API driven platforms allow for easy to maintain monitoring setups with version controlled monitoring configurations.
+In part three I'll _actually_ be covering setting up monitoring in IaC, particularly around how we've used DataDog and how API driven platforms allow for easy to maintain monitoring setups with version controlled monitoring configurations.
 
 ## References
 
