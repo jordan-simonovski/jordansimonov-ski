@@ -7,7 +7,7 @@ tags: ["infra","tooling","developers","developer-experience","devops"]
 cover: "/img/tool-time.png"
 ---
 
-After spending some time focusing on building great tooling for development teams, I've come to see that there is a lot of value in building great developer tooling. 
+After spending some time focusing on building tooling for development teams, I've come to see that there is a lot of value in building tooling that developers prefer to use over alternatives that they could othwerise find to get their jobs done.
 
 I'm probably going to just vomit a bunch of stuff that's been on my mind in regards to building out developer tooling,but the most important thing for me is how much better this makes _everyone_ at their jobs.
 
