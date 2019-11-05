@@ -13,7 +13,7 @@ I'm probably going to just vomit a bunch of stuff that's been on my mind in rega
 
 ## Focusing on a Great Developer Experience (DX)
 
-One thing I've noticed that a lot of companies tend to miss is a good investment in Developer Experience or DX. We've all worked in an environment where the ops team has handed down some kind of crazy arcane bash script that does a bunch of crazy shit that we'll never understand, or maybe we've worked in an environment where the operations teams thought DevOps meant giving developrs an Ansible script they wrote and hoping for the best.
+One thing I've noticed that a lot of companies tend to miss is a good investment in Developer Experience or DX. We've all worked in an environment where the ops team has handed down some kind of crazy arcane bash script that does a bunch of shit that we'll never understand, or maybe we've worked in an environment where the operations teams thought DevOps meant giving developers an Ansible script they wrote and hoping for the best.
 
 One of the biggest issues with writing deployment tooling for developers isn't just making the thing functional, but also giving developers something that they _want_ to use. A lot of the time, you'll get asked questions like "Why would I use your tooling, when X does the same thing?", and I'd argue that in this case you should probably be asking yourself _why_ you're building out tooling. Is this merely to scratch the coding itch that you have because you've been doing nothing but writing YAML for the last two months?
 
