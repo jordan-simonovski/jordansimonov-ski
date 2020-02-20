@@ -69,6 +69,4 @@ Many software companies are also moving towards the idea of ROWE (Results Only W
 
 {{< figure src="https://media.giphy.com/media/3d4JvDzQsuca1nNwiQ/giphy.gif" alt="Costanza" position="center" style="border-radius: 8px;" caption="Think of how George tricks his workplace into thinking he's busy by being angry all the time." >}}
 
-
-
-
+## Setting a Vision
