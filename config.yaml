@@ -10,7 +10,7 @@ paginate: 5
 
 params:
   contentTypeName: posts
-  cover: https://i.imgur.com/zU8G2JR.jpg
+  cover: https://i.imgur.com/we30L0p.gif
   tagline: Rants | TILs | Opinions
   themeColor: green
   showMenuItems: 2
