@@ -2,7 +2,7 @@
 title: "TIL Leadership Fundamentals"
 date: 2020-02-20T18:30:20+11:00
 author: "Jordan Simonovski"
-description: "When jumping into the deep end of leading the team that I helped to build, I struggled to communicate a vision to my team. This is just a collection of things I learned when figuring out how to set a good vision with my team."
+description: "When jumping into the deep end of leading the team that I helped to build, I struggled to communicate a good vision to my team. This post covers a few thing leading up to vision like motivation, and what good leadership looks like - to me anyway."
 tags: ["devops","sre","developers","leadership"]
 cover: "/img/read-not-lead.gif"
 ---
