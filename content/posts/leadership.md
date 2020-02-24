@@ -85,7 +85,7 @@ Understanding the motivations of the different members of your team is also some
 
 As a leader you need to understand that _extrinsic motivation_ (observable behaviours driven by external rewards) can only go so far, and is often the tip of the iceberg of what keeps your team members motivated at work. I briefly mentioned extrinsic motivation earlier when talking about Mastery, Autonomy, and Purpose. These are considered ways of giving someone intrinsic motivation (motivation to achieve goals or skills). These are considered invisible and take additional effort to determine.
 
-When helping your team set goals for themselves, many people use [SMART Goals](https://www.mindtools.com/pages/article/smart-goals.htm) which help people keep their goals on track. It's also worth keeping in mind the four P's when setting these goals: Personal, Positive, Possible, Prioritised. Think about where your team member is on their [hierarchy of needs(https://www.simplypsychology.org/maslow.html) and help them set their goals according to that].
+When helping your team set goals for themselves, many people use [SMART Goals](https://www.mindtools.com/pages/article/smart-goals.htm) which help people keep their goals on track. It's also worth keeping in mind the four P's when setting these goals: Personal, Positive, Possible, Prioritised. Think about where your team member is on their [hierarchy of needs](https://www.simplypsychology.org/maslow.html) and help them set their goals according to that.
 
 {{< figure src="/img/maslow.webp" alt="maslows hierarchy of needs" position="center" style="border-radius: 8px;" caption="Maslow posited that human needs are arranged in a hierarchy" >}}
 
