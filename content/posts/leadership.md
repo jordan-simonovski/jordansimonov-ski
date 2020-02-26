@@ -111,6 +111,61 @@ Setting a vision isn't something that can be done on a whim, as you want to get 
 
 ---
 
+## The Difference Between Management and Leadership
+
+So taking all of the above into consideration, I started building up a good understanding of the differences between management and leadership.
+
+In terms of the way these roles affect engineering teams, I can see somme fundamental differences in the way of thinking between the two roles. Below is a short table of things I (and probably you) probably notice in your day-to-day. This serves as a reference, but I'll elaborate on each one, and why the former is less likely to retain great engineering talent.
+
+Managers | Leaders
+--- | ---
+Goals/Objectives | Vision
+How and When | What and Why
+Doing things right | Doing the right thing
+Views: Short Term | Views: Long Term
+
+### Goals/Objectives vs. Vision
+
+A _manager_ setting goals/objectives for their team will undoubtedly leave their team in the dark about the decisions that were made that motivated the need for those goals to be completed. The team is effectively handed a checklist of to-do items that need to be completed by a certain date.
+
+An example of this could be: _"Set up EC2 instances using puppet to orchestrate the setup and deployment of servers for developers"._
+
+The only way of motivating your team to get this done is via extrinsic motivation. Taking Maslow's Hierarchy of Needs into account, if you're leading a team of relatively senior engineers this kind of work is almost offensive. They're making enough money for extrinsic motivation to not work, and they're even more disengaged because there is no self-actualisation being accomplish with this work.
+
+A good leader is capable of having a good vision of what they want to achieve, and will leave the work of thinking about how to accomplish that vision up to their engineers.
+
+e.g. _"We need a platform for developers to be able to easily, quickly, and safely ship their code"._
+
+Taking the above into account, the team will use their accumulated expertise to develop a solution to the problem that will vastly exceed the expectations that you might have had of "configure a server onto an EC2". By having a say into the _how_ of achieving the vision, your engineers will have achieved that self-actualisation piece by making a meaningful contribution to the vision.
+
+### How/When vs. What/Why
+
+This bit is very similar to the examples I mentioned above. A manager will tell their team exactly how to do the work, and when it should be done by (to-do list). A leader is capable of explaining to their team _what_ needs to be accomplished and _why_ it needs to be done.
+
+Think _"I need this navbar styled in this particular way by the end of the sprint."_ The manager here likely has a motivation for getting this done, but by keeping their team in the dark around the reasoning behind this, they're likely to miss out on some great ideas from the team about how to accomplish the goal the manager has in mind.
+
+Compare that to _"Our current conversion rate is x% and we need to bump this up to y% to make more money"_ (the money bit is maybe a bad _why_ but it's late and my brain isn't working). As a result of a good leader giving the what and why of the work being done, the team will also think of ways to accomplish this goal. Maybe they'll experiment with a navbar tweak, but figure out that it's actually the page latency that is causing a high bounce rate. As a result you have an engaged team that is invested in creating a better experience for their customers, and with the right culture of experimentation you could be doing some really cool stuff!
+
+### Doing Things Right vs. Doing the Right Thing
+
+This one is particularly apparent in larger enterprises where the manager will become a stickler for the process in place and enforce it among their team. If you're experiencing a production outage and the only way to deploy the hotfix is via 3 levels of emergency approval the manager will stick to that process exactly. A good leader will identify that the most important thing to do is to establish service stability.
+
+### Short Term Views vs. Long Term Views
+
+A manager will usually have a very short-term view of the work that needs to be done. Let's use the first example of setting up a server for a team. Short-term this will get the work done and that item will be marked off the to-do list. 
+
+If a leader is to approach with with a long-term view they would look at how likely it is for this request to come up from another team, which would lead to thinking about how to give other development teams the automation they need to get their job without having to raise a support ticket every time which would lead to an increase in productivity on all sides.
+
+---
+
+These are only a few examples of some of the comparisons you can make between management and leadership, particularly in engineering organisations. Many engineering-driven companies like Atlassian, Google, etc. have realised the potential of employee engagement and actively support this.
+
+Google has the concept of 20% time regardless of your opinion of it was a great catalyst that delivered some great products to the company such as: Gmail, Google maps, Adsense, and Google Talk. Adsense alone is responsible for 25% of Google's annual revenue.
+
+Atlassian regularly runs [ShipIt Day ](https://www.atlassian.com/blog/archives/case-study-six-feet-up-shipit-day) (previously known as FedEx days) that they see as something incredibly important for driving intrinsic motivation. It drives creativity, innovation, and gives employees the chance to work on things they think are important, but haven't had the time to do as part of their "day jobs".
+
+---
+
 Apologies for my massive brain dump. I'm still processing a lot of this information. Despite all of the lists of different definitions, the most important thing I learned was the ability to discern between management and leadership. To me, good leadership is something that takes lots of conscious effort to achieve. The best leaders aren't necessarily the people who wanted that role, but the people who are passionate about doing the right thing.
 
 Hopefully having a better understanding of what I don't know yet will give me the motivation I need to improve myself to help my team achieve their goals.
