@@ -165,15 +165,21 @@ If a leader is to approach with with a long-term view they would look at how lik
 
 {{< image src="https://media.giphy.com/media/NN0YgipJdF9ba/giphy.gif" alt="short-term" position="center" style="border-radius: 8px;" >}}
 
----
+## There is Still a Place for Management
 
-{{< figure src="/img/out-of-touch-manager.jpg" alt="Am I out of touch? No It's the employees who are wrong" position="center" style="border-radius: 8px;" caption="Managers trying to figure out why their highly paid employees aren't motivated by a bonus." >}}
+Taking both management and leadership into consideration, it doesn't necessarily mean that one is generally better than the other for everything. There is still a place for management practices. Coaching, strategic thinking, mentoring, and communication are all incredibly important skills to have. The way you'd likely see management practices being used in the wild is when the team needs to stay on track or if you're handling an incident that needs affirmative action. 
+
+In my opinion, management practices such as the carrot and stick way of motivating people have no place when trying to motivate a highly skilled and highly paid workforce.
+
+---
 
 These are only a few examples of some of the comparisons you can make between management and leadership, particularly in engineering organisations. Many engineering-driven companies like Atlassian, Google, etc. have realised the potential of employee engagement and actively support this.
 
 Google has the concept of 20% time regardless of your opinion of it was a great catalyst that delivered some great products to the company such as: Gmail, Google maps, Adsense, and Google Talk. Adsense alone is responsible for 25% of Google's annual revenue.
 
 Atlassian regularly runs [ShipIt Days](https://www.atlassian.com/blog/archives/case-study-six-feet-up-shipit-day) (previously known as FedEx days) that they see as something incredibly important for driving intrinsic motivation. It drives creativity, innovation, and gives employees the chance to work on things they think are important, but haven't had the time to do as part of their "day jobs".
+
+{{< figure src="/img/out-of-touch-manager.jpg" alt="Am I out of touch? No It's the employees who are wrong" position="center" style="border-radius: 8px;" caption="Managers trying to figure out why their highly paid employees aren't motivated by a bonus." >}}
 
 ---
 
