@@ -168,6 +168,12 @@ Atlassian regularly runs [ShipIt Days](https://www.atlassian.com/blog/archives/c
 
 Apologies for my massive brain dump. I'm still processing a lot of this information. Despite all of the lists of different definitions, the most important thing I learned was the ability to discern between management and leadership. To me, good leadership is something that takes lots of conscious effort to achieve. The best leaders aren't necessarily the people who wanted that role, but the people who are passionate about doing the right thing.
 
+Today we know that empathetic, trust-based human leadership is not only the most effective way to lead a team but also the most profitable way to run a company.
+
+The late management guru Peter Drucker was one of the first to recognise the shortcomings of traditional management. He identified the emergence of the “knowledge worker,” and the profound differences that would cause in the way business was organised.
+
+With the rise of the knowledge worker, “one does not ‘manage’ people,” Mr. Drucker wrote. “The task is to lead people. And the goal is to make productive the specific strengths and knowledge of every individual.”
+
 Hopefully having a better understanding of what I don't know yet will give me the motivation I need to improve myself to help my team achieve their goals.
 
 Now that I'm done with this post, I'll get back to my usual shitposting.
