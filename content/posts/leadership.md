@@ -162,7 +162,7 @@ These are only a few examples of some of the comparisons you can make between ma
 
 Google has the concept of 20% time regardless of your opinion of it was a great catalyst that delivered some great products to the company such as: Gmail, Google maps, Adsense, and Google Talk. Adsense alone is responsible for 25% of Google's annual revenue.
 
-Atlassian regularly runs [ShipIt Day ](https://www.atlassian.com/blog/archives/case-study-six-feet-up-shipit-day) (previously known as FedEx days) that they see as something incredibly important for driving intrinsic motivation. It drives creativity, innovation, and gives employees the chance to work on things they think are important, but haven't had the time to do as part of their "day jobs".
+Atlassian regularly runs [ShipIt Days](https://www.atlassian.com/blog/archives/case-study-six-feet-up-shipit-day) (previously known as FedEx days) that they see as something incredibly important for driving intrinsic motivation. It drives creativity, innovation, and gives employees the chance to work on things they think are important, but haven't had the time to do as part of their "day jobs".
 
 ---
 
