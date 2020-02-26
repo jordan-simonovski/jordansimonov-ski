@@ -138,7 +138,7 @@ e.g. _"We need a platform for developers to be able to easily, quickly, and safe
 
 Taking the above into account, the team will use their accumulated expertise to develop a solution to the problem that will vastly exceed the expectations that you might have had of "configure a server onto an EC2". By having a say into the _how_ of achieving the vision, your engineers will have achieved that self-actualisation piece by making a meaningful contribution to the vision.
 
-{{< image src="https://media.giphy.com/media/mXuPwP0kxQqvu0M168/giphy.gif" alt="vision" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/morty-todo-list.jpg" alt="I do as the to-do list guides" position="center" style="border-radius: 8px;" >}}
 
 ### How/When vs. What/Why
 
@@ -166,6 +166,8 @@ If a leader is to approach with with a long-term view they would look at how lik
 {{< image src="https://media.giphy.com/media/NN0YgipJdF9ba/giphy.gif" alt="short-term" position="center" style="border-radius: 8px;" >}}
 
 ---
+
+{{< figure src="/img/out-of-touch-manager.jpg" alt="Am I out of touch? No It's the employees who are wrong" position="center" style="border-radius: 8px;" caption="Managers trying to figure out why their highly paid employees aren't motivated by a bonus." >}}
 
 These are only a few examples of some of the comparisons you can make between management and leadership, particularly in engineering organisations. Many engineering-driven companies like Atlassian, Google, etc. have realised the potential of employee engagement and actively support this.
 
