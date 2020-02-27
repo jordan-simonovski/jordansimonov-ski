@@ -4,7 +4,7 @@ date: 2020-02-25T18:30:20+11:00
 author: "Jordan Simonovski"
 description: "When jumping into the deep end of leading the team that I helped to build, I struggled to communicate a good vision to my team. This post covers a few thing leading up to vision like motivation, and what good leadership looks like - to me anyway."
 tags: ["devops","sre","developers","leadership"]
-cover: "/img/read-not-lead.gif"
+cover: "/img/lead-not-read.gif"
 ---
 
 I'm not usually one to share anything leadership related because I was worried about turning into a motivational LinkedIn "influencer". Diving into technical leadership and making that lateral shift in my career had me really struggling to communicate all of the things in my head to my team.
