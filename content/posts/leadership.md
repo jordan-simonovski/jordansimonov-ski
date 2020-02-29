@@ -115,7 +115,7 @@ Setting a vision isn't something that can be done on a whim, as you want to get 
 
 So taking all of the above into consideration, I started building up a good understanding of the differences between management and leadership.
 
-In terms of the way these roles affect engineering teams, I can see somme fundamental differences in the way of thinking between the two roles. Below is a short table of things I (and probably you) probably notice in your day-to-day. This serves as a reference, but I'll elaborate on each one, and why the former is less likely to retain great engineering talent.
+In terms of the way these roles affect engineering teams, I can see some fundamental differences in the way of thinking between the two roles. Below is a short table of things I (and probably you) probably notice in your day-to-day. This serves as a reference, but I'll elaborate on each one, and why the former is less likely to retain great engineering talent.
 
 Managers | Leaders
 --- | ---
