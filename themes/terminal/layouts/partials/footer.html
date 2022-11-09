@@ -21,6 +21,11 @@
           <i class="fab fa-github-alt fa-2x"></i>
         </a>
       {{end}}
+      {{ if $.Site.Params.mastodonLink }}
+        <a href="{{ $.Site.Params.mastodonLink }}" target="_blank" rel="me">
+          <i class="fab fa-mastodon fa-2x"></i>
+        </a>
+      {{end}}
   </div>
   {{end}}
 </footer>
